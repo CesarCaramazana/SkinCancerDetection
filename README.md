@@ -6,4 +6,46 @@ Thanks to the pattern recognition capabilities of Convolutional Neural Networks,
 
 We used ISIC DB 2018 dataset to evaluate the experiments, a highly imbalanced dataset containing 2750 dermoscopic images, publicly available here: https://challenge.isic-archive.com/data
 
-A patch-based preprocessing stage is implemented in order to reduce the size of the input images to (300x300), due to the memory limitations of Google Colab. A comparison of different arquitectures is carried out. 
+
+<h2>Description</h2>
+
+A patch-based preprocessing stage is implemented in order to reduce the size of the input images to (300x300), due to the memory limitations of Google Colab. 
+
+
+A comparison of different arquitectures is carried out. 
+
+
+
+<h2>Dataset scheme</h2>
+
+The dataset was stored in a Google Drive account (<code>"/content/drive/My Drive/db_isic</code>), with the following folder structure:
+
+<pre>
+<code>
+  db_isic/
+      idx/
+          isic_2017.mat
+      
+      ISIC-2017_Training_Data/
+          ISIC_0000421.jpg
+          ...          
+      ISIC-2017_Training_Part2_GroundTruth/
+          gtann/
+              ISIC_0000421.mat
+              ...
+      ISIC-2017_Validation_Data/
+          ISIC_0006651.jpg
+          ...        
+      ISIC-2017_Validation_Part2_GroundTruth/
+          gtann/
+            ISIC_0006651.mat
+            ...
+      ISIC-2017_Test_v2_Data/
+          ISIC_0016072.jpg
+          ...
+      ISIC-2017_Test_v2_Part2_GroundTruth/
+          gtann/
+              ISIC_0016072.mat
+    
+</code>
+</pre>
