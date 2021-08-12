@@ -18,7 +18,7 @@ A comparison of different arquitectures is carried out.
 
 <h2>Dataset scheme</h2>
 
-The dataset was stored in a Google Drive account (<code>"/content/drive/My Drive/db_isic</code>), with the following folder structure:
+The dataset was stored in a Google Drive account (<code>/content/drive/My Drive/db_isic</code>), with the following folder structure:
 
 <pre>
 <code>
