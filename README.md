@@ -12,8 +12,7 @@ We used ISIC DB 2018 dataset to evaluate the experiments, a highly imbalanced da
 A patch-based preprocessing stage is implemented in order to reduce the size of the input images to (300x300), motivated by the memory limitations of Google Colab. 
 
 
-A comparison of different arquitectures is carried out. 
-
+A comparison of different classifier arquitectures is carried out, trying to discover the strenghts and weaknesses of each of them, and trying to find the balance between performance and computational cost. 
 
 
 <h2>Dataset scheme</h2>
