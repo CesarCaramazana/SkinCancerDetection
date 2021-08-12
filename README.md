@@ -9,7 +9,7 @@ We used ISIC DB 2018 dataset to evaluate the experiments, a highly imbalanced da
 
 <h2>Description</h2>
 
-A patch-based preprocessing stage is implemented in order to reduce the size of the input images to (300x300), due to the memory limitations of Google Colab. 
+A patch-based preprocessing stage is implemented in order to reduce the size of the input images to (300x300), motivated by the memory limitations of Google Colab. 
 
 
 A comparison of different arquitectures is carried out. 
