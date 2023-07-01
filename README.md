@@ -11,4 +11,13 @@ We used ISIC DB 2018 dataset to evaluate the experiments, a highly imbalanced da
 Image source: extracted from the dataset
 
 
+## Proposal
 
+**Data augmentation**: 
+- Crop by mask: to remove healthy skin.
+- Random squared crop.
+- Random vertical flips: with probability p=0.5.
+- Random horizontal flips: with probability p=0.5.
+
+
+We used Adam optimizer, L2 regularization, Xavier weight initialization and class weights to counter class imbalance. 
