@@ -12,14 +12,3 @@ Image source: extracted from the dataset
 
 
 
-<h2>Code usage</h2>
-
-The project is implemented in a Google Colab notebook <code>cancer_detection.ipynb</code>, writen in Pytorch and using the following libraries:
-
-<ul>
-  
-  <li> Numpy </li>
-  <li> Matplotlib </li>
-  <li> Torchvision </li>
-  
-  </ul>
